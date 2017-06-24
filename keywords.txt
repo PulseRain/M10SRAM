@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For M10SRAM
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+M10SRAM_STRUCT	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+write	KEYWORD2
+read	KEYWORD2
+
+#######################################
+# Instances (KEYWORD3)
+#######################################
+
+SRAM	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+M23XX1024_BYTE_MODE	LITERAL1
+M23XX1024_PAGE_MODE	LITERAL1
+M23XX1024_SEQ_MODE	LITERAL1
+M23XX1024_CMD_READ	LITERAL1
+M23XX1024_CMD_WRITE	LITERAL1
+M23XX1024_CMD_RDMR	LITERAL1
+M23XX1024_CMD_WRMR	LITERAL1
+M23XX1024_WR_BUSY_FLAG	LITERAL1
+M23XX1024_RD_DATA_AVAIL_FLAG	LITERAL1
+M23XX1024_BUSY_FLAG	LITERAL1
+M23XX1024_MEM_SIZE	LITERAL1
