@@ -43,9 +43,9 @@
 
 
 typedef struct {
-  void (*begin)();
+  void (*begin)() __reentrant;
   void (*_write)(uint32_t addr, uint8_t data) __reentrant;
-  uint8_t (*read) (uint32_t addr);
+  uint8_t (*read) (uint32_t addr) __reentrant;
 } M10SRAM_STRUCT;
 
 extern const M10SRAM_STRUCT SRAM;

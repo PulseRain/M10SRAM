@@ -34,7 +34,7 @@
 // Remarks:
 //      Function to initialize the onboard SRAM
 //----------------------------------------------------------------------------
-static void SRAM_init()
+static void SRAM_init() __reentrant
 {
     uint8_t x = 1;
     
@@ -108,7 +108,7 @@ static void SRAM_write_byte (uint32_t addr, uint8_t data) __reentrant
 //      Function to read one byte to onboard SRAM
 //----------------------------------------------------------------------------
 
-static uint8_t SRAM_read_byte (uint32_t addr)
+static uint8_t SRAM_read_byte (uint32_t addr) __reentrant
 {
     volatile uint8_t x;
 
